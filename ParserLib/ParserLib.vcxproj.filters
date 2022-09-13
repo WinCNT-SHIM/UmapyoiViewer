@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Lexer.h">
+      <Filter>ASEParser\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="CASEParser.h">
+      <Filter>ASEParser\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="CParsingDataClass.h">
+      <Filter>ASEParser\FileStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEFile.h">
+      <Filter>ASEParser\FileStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>ASEParser\FileStruct</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>ASEParser\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="CASEParser.cpp">
+      <Filter>ASEParser\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEFile.cpp">
+      <Filter>ASEParser\FileStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="CParsingDataClass.cpp">
+      <Filter>ASEParser\FileStruct</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ASEParser">
+      <UniqueIdentifier>{b9336967-130a-4863-9da6-30d921d92c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASEParser\Lexer">
+      <UniqueIdentifier>{7cc5e9ba-e49f-4e3e-b2d3-64c9e102bc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASEParser\FileStruct">
+      <UniqueIdentifier>{c71f0b4d-82e8-4ac7-93e9-9d9acdf3acb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASEParser\Parser">
+      <UniqueIdentifier>{fac0b312-0964-4de5-97f0-0c4712598e84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

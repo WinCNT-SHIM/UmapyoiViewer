@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GraphicsEngine">
+      <UniqueIdentifier>{bc92b885-4995-4158-b888-c2df18356251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Light">
+      <UniqueIdentifier>{6e45e963-d0ab-42df-809f-6a40bc2b9621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Shader">
+      <UniqueIdentifier>{239b8211-76b6-43a0-908d-ab32dd3058df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{e1459e2f-df81-4519-9e6f-b9be8e62e390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define\PCH">
+      <UniqueIdentifier>{634673d3-00d2-427e-b842-d1902c6a41b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Core">
+      <UniqueIdentifier>{30c343ee-da5e-4735-b132-5467407adc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Shader\Effects">
+      <UniqueIdentifier>{9b5a0440-a12b-451f-b256-6acde58bed68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Shader\InputLayouts">
+      <UniqueIdentifier>{b03851ae-224d-4622-a99e-95b2da6c2011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Shader\FX">
+      <UniqueIdentifier>{17fe5a17-1f60-408d-81f1-177742d64e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Resource">
+      <UniqueIdentifier>{192c12ec-56a9-44ce-8d92-bdcb0d4c68b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Resource\Buffer">
+      <UniqueIdentifier>{ebb10c8b-d9df-49d4-b9e8-2697f80fbbbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStruct">
+      <UniqueIdentifier>{39884ffa-c5de-4182-9988-44f29d4a0e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Renderer">
+      <UniqueIdentifier>{4d14289b-e868-4245-81ac-06157c9f1ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Shader\RenderingPass">
+      <UniqueIdentifier>{6e923576-8ed7-4300-898e-5447c9145a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Resource\GeometryGenerator">
+      <UniqueIdentifier>{683e1824-5ce2-4619-abca-5aa74d5c5d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Shader\Helper">
+      <UniqueIdentifier>{a8a6d95c-4d5e-4c4b-9938-ac2b4232e860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Shader\Effects\Implement">
+      <UniqueIdentifier>{9ba4a832-83e0-4910-b985-5c05a4893e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStruct\VertexStruct">
+      <UniqueIdentifier>{8ce6447b-dcc5-466f-8d8f-9a9645980daf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsEnginePCH.h">
+      <Filter>Define\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Define.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="IDefine.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11GraphicsEngine.h">
+      <Filter>GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphicsEngineBase.h">
+      <Filter>GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStruct.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="DXDevice.h">
+      <Filter>GraphicsEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.h">
+      <Filter>GraphicsEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>GraphicsEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>GraphicsEngine\Shader\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayouts.h">
+      <Filter>GraphicsEngine\Shader\InputLayouts</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexStruct.h">
+      <Filter>DataStruct\VertexStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase_Mk1.h">
+      <Filter>GraphicsEngine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>GraphicsEngine\Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferBase.h">
+      <Filter>GraphicsEngine\Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>GraphicsEngine\Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsRenderingData.h">
+      <Filter>DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsPerFrameData.h">
+      <Filter>DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsTextData.h">
+      <Filter>DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceDefine.h">
+      <Filter>GraphicsEngine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase.h">
+      <Filter>GraphicsEngine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>GraphicsEngine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>GraphicsEngine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingPassBase.h">
+      <Filter>GraphicsEngine\Shader\RenderingPass</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>GraphicsEngine\Shader\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardRenderingPass.h">
+      <Filter>GraphicsEngine\Shader\RenderingPass</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectBase.h">
+      <Filter>GraphicsEngine\Shader\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="PosColorEffect.h">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>GraphicsEngine\Resource\GeometryGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>GraphicsEngine\Resource\GeometryGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicEffect.h">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>GraphicsEngine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>GraphicsEngine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicSkinnedEffect.h">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClInclude>
+    <ClInclude Include="UmaMusumeHairEffect.h">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClInclude>
+    <ClInclude Include="UmaMusumeCheekEffect.h">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClInclude>
+    <ClInclude Include="UmaMusumeEyesEffect.h">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClInclude>
+    <ClInclude Include="UmaMusumeFaceEffect.h">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GraphicsEnginePCH.cpp">
+      <Filter>Define\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11GraphicsEngine.cpp">
+      <Filter>GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStruct.cpp">
+      <Filter>Define</Filter>
+    </ClCompile>
+    <ClCompile Include="DXDevice.cpp">
+      <Filter>GraphicsEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>GraphicsEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="IGraphicsEngineBase.cpp">
+      <Filter>GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>GraphicsEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>GraphicsEngine\Shader\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayouts.cpp">
+      <Filter>GraphicsEngine\Shader\InputLayouts</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexStruct.cpp">
+      <Filter>DataStruct\VertexStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>GraphicsEngine\Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>GraphicsEngine\Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>GraphicsEngine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>GraphicsEngine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingPassBase.cpp">
+      <Filter>GraphicsEngine\Shader\RenderingPass</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardRenderingPass.cpp">
+      <Filter>GraphicsEngine\Shader\RenderingPass</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>GraphicsEngine\Shader\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBase.cpp">
+      <Filter>GraphicsEngine\Shader\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="PosColorEffect.cpp">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>GraphicsEngine\Resource\GeometryGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>GraphicsEngine\Resource\GeometryGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicEffect.cpp">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>GraphicsEngine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>GraphicsEngine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicSkinnedEffect.cpp">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="UmaMusumeHairEffect.cpp">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="UmaMusumeCheekEffect.cpp">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="UmaMusumeEyesEffect.cpp">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="UmaMusumeFaceEffect.cpp">
+      <Filter>GraphicsEngine\Shader\Effects\Implement</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FX\LightHelper.fx">
+      <Filter>GraphicsEngine\Shader\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\PosColor.fx">
+      <Filter>GraphicsEngine\Shader\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Basic.fx">
+      <Filter>GraphicsEngine\Shader\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Struct.fx">
+      <Filter>GraphicsEngine\Shader\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\CBPerFrame.fx">
+      <Filter>GraphicsEngine\Shader\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BasicSkinned.fx">
+      <Filter>GraphicsEngine\Shader\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\UmaMusumeHair.fx">
+      <Filter>GraphicsEngine\Shader\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\UmaMusumeCheek.fx">
+      <Filter>GraphicsEngine\Shader\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\UmaMusumeEyes.fx">
+      <Filter>GraphicsEngine\Shader\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\UmaMusumeFace.fx">
+      <Filter>GraphicsEngine\Shader\FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

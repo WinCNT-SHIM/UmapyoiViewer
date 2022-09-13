@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{cb537049-c0cb-441e-ac64-b3bcc045e6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{cea00ae2-3633-454b-b980-e916ded35481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Scene">
+      <UniqueIdentifier>{13547877-48f6-4813-a0eb-b086a65b6bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameObject">
+      <UniqueIdentifier>{1684d78c-ebc3-4f0c-9a06-a1fcddcea1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\00_Interface">
+      <UniqueIdentifier>{a9618dfe-bba3-43ff-bb13-031fa63e5b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Component">
+      <UniqueIdentifier>{09898235-ce53-4ff7-8131-1351ef657f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Component\Camera">
+      <UniqueIdentifier>{ab1f8bef-0388-4113-906d-98fd9750e80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Component\Light">
+      <UniqueIdentifier>{e20a9d61-ccee-4494-b1a7-ff0bd79764c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Component\Transform">
+      <UniqueIdentifier>{1316aab3-416f-44e1-9d7e-4e10d27611f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Resource">
+      <UniqueIdentifier>{141e286c-1f07-4d28-ab96-080b7b136dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Component\Renderer">
+      <UniqueIdentifier>{d5f21ba7-f5d4-4ebf-9233-7a7412ab41f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Rendering">
+      <UniqueIdentifier>{4b44aa19-727d-460f-a783-368f103056b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Component\Animation">
+      <UniqueIdentifier>{dd99f559-7218-4dbf-a71b-13d4c23a4f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Component\Character">
+      <UniqueIdentifier>{c08c117d-b5e2-48f8-a43b-9a3ca7b1b422}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEnginePCH.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEngineBase.h">
+      <Filter>GameEngine\00_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>GameEngine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>GameEngine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameEngine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameEngine\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>GameEngine\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentBase.h">
+      <Filter>GameEngine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryGameObject.h">
+      <Filter>GameEngine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererBase.h">
+      <Filter>GameEngine\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>GameEngine\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>GameEngine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingManager.h">
+      <Filter>GameEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBase.h">
+      <Filter>GameEngine\Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>GameEngine\Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshRenderer.h">
+      <Filter>GameEngine\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>GameEngine\Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Armature.h">
+      <Filter>GameEngine\Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefabASE.h">
+      <Filter>GameEngine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>GameEngine\Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="UmaMusume.h">
+      <Filter>GameEngine\Component\Character</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnginePCH.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>GameEngine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>GameEngine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameEngine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameEngine\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>GameEngine\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentBase.cpp">
+      <Filter>GameEngine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryGameObject.cpp">
+      <Filter>GameEngine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererBase.cpp">
+      <Filter>GameEngine\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>GameEngine\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>GameEngine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingManager.cpp">
+      <Filter>GameEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="LightBase.cpp">
+      <Filter>GameEngine\Component\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>GameEngine\Component\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshRenderer.cpp">
+      <Filter>GameEngine\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>GameEngine\Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Armature.cpp">
+      <Filter>GameEngine\Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefabASE.cpp">
+      <Filter>GameEngine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>GameEngine\Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="UmaMusume.cpp">
+      <Filter>GameEngine\Component\Character</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
